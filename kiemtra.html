@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">nguyen ngoc duong</h1>
+    <p id="description">thong tin ca nhan.</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">ten:</label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+      <br />
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" type="email" placeholder="Enter your email" required />
+      <br />
+      <label id="number-label" for="number">so:</label>
+      <input
+        id="number"
+        type="number"
+        placeholder="Enter a number between 1 and 10"
+        min="1"
+        max="10"
+        required
+      />
+      <br />
+      <label for="dropdown">Select an option:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+      <br />
+      <label>Radio buttons:</label>
+      <br />
+      <input type="radio" id="radio1" name="radio" value="option1" />
+      <label for="radio1">Option 1</label>
+      <br />
+      <input type="radio" id="radio2" name="radio" value="option2" />
+      <label for="radio2">Option 2</label>
+      <br />
+      <label>Checkboxes:</label>
+      <br />
+      <input type="checkbox" id="checkbox1" name="checkbox" value="option1" />
+      <label for="checkbox1">Option 1</label>
+      <br />
+      <input type="checkbox" id="checkbox2" name="checkbox" value="option2" />
+      <label for="checkbox2">Option 2</label>
+      <br />
+      <textarea id="comments" placeholder="Enter your comments"></textarea>
+      <br />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
